@@ -18,7 +18,7 @@ import org.testng.annotations.Parameters;
 public class baseclass {
 	public WebDriver driver;
 	//public WebDriver driver;  //for parallel testing remove static
-
+	//changes
   @BeforeMethod
   @Parameters({"brow"})
   public void beforeTest(String brow) throws InterruptedException, IOException {
